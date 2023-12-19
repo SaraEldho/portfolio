@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Hedvig Letters Serif;
+}
+nav {
+  background-color: cyan;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  display: flex;
+  list-style: none;
+}
+nav ul li a {
+  display: flex;
+  margin: 30px;
+  text-decoration: none;
+  font-weight: 800;
+}
+nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.head {
+  color: darkblue;
+  font-weight: 900;
+  text-shadow: 2px 2px 8px rgb(7, 7, 224);
+  letter-spacing: 5px;
+}
+span {
+  color: darkblue;
+  font-family: "Times New Roman", Times, serif;
+}
+#home {
+  display: flex;
+  height: 600px;
+  margin: 30px 0;
+}
+#home::before {
+  content: "";
+  background-image: url("https://cdn.savageuniversal.com/media/amasty/blog/cache/i/S/1080/605/iStock-1178126962-Web-Size.jpeg");
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  opacity: 0.5;
+}
+.main {
+  position: absolute;
+  border: 4px groove rgb(15, 15, 15);
+  padding: 20px;
+  top: 1250px;
+  left: 450px;
+  box-shadow: 2px 2px 8px 2px rgb(3, 3, 3);
+}
+#home:hover {
+  text-shadow: 4px 5px 7px rgb(0, 0, 6);
+}
+h3 {
+  color: darkblue;
+  font-size: xx-large;
+  text-align: start;
+  margin: 30px;
+  text-decoration: underline;
+}
+h3:hover {
+  text-shadow: 4px 5px 7px blue;
+}
+.pic img {
+  border-radius: 50%;
+}
+.pic {
+  display: flex;
+}
+.pic p {
+  text-align: justify;
+  margin: 40px;
+}
+h4 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 5px;
+  color: brown;
+  font-size: xx-large;
+}
+.gallery {
+  margin: 50px 250px;
+}
+.gallery img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+.gallery img:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.row {
+  display: flex;
+}
+.box {
+  width: 300px;
+  height: 500px;
+  margin: 30px;
+  border: 3px solid maroon;
+  background: linear-gradient(to top, maroon 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+}
+.box img {
+  width: 100%;
+}
+.box:hover {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-position: bottom;
+}
+.box h4 {
+  padding: 10px;
+}
+.box h4,
+p:hover {
+  color: white;
+}
+.box p {
+  text-align: justify;
+  padding: 20px;
+}
+form {
+  width: 400px;
+  margin-left: 470px;
+}
+.input {
+  display: flex;
+  width: 100%;
+}
+button {
+  margin-left: 150px;
+  padding: 10px;
+  border: 3px solid darkblue;
+  margin-top: 20px;
+  background-color: maroon;
+}
+button:hover {
+  background-color: rgb(13, 0, 255);
+  color: white;
+}
